@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+@media(max-width:768px){
+#Hotel  .row{
+text-align: center;
+}
+#cards .row{
+  text-align: center;
+  
+}
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+#nav{
+    background-color: #333;
+   
+
+}
+
+  #nav .navbar-brand {
+    text-decoration: none;
+    color: white ;
+    font-size: 20px;
+    font-weight: bold;
+    
+  }
+
+   
+  
+
+  #nav ul a {
+    
+    color: white;
+    padding: 25px 12px;
+    font-size: 20px;
+    text-align: center;
+  }
+  #nav ul .active {
+    background-color: rgb(145, 96, 31);
+   
+    
+    
+    
+  }
+
+  #Hotel{
+    background-color: rgb(252, 253, 253);
+    width: 100%;
+    height: calc(100vh - 88.88);
+    
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  #Hotel .l-div{
+  
+     
+padding: 20px 10px 10px 10px;
+
+  }
+
+  #Hotel .l-div span {
+    color: rgb(201, 114, 83);
+  }
+  #Hotel .r-div{
+    
+    text-align: center;
+
+
+
+  }
+
+  #Hotel .l-div h2 {
+    padding-bottom: 15px;
+
+  }
+
+  #Hotel .l-div p {
+    color: rgb(77, 75, 75);
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #Hotel .r-div img {
+    width: 60%;
+    height: 318px;
+    object-fit: cover;
+    border: none;
+    border-radius: 50%;
+    padding: 33px 23px;
+    background-size: cover;
+  }
+
+  #cards {
+
+    background-image:url(../img/‏‏r-img\ -\ نسخة.jpg);
+   
+    background-size:cover;
+   
+    
+  }
+
+  #cards h1 {
+    
+    text-shadow:h-shadow ;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 30px;
+    color: rgb(215, 195, 159);
+    margin-bottom: 50px;
+  }
+
+  #cards .row {
+   
+    padding: 12px 30px;
+    width: 100%;
+    background-color: rgb(215, 195, 159);
+    margin-bottom: 35PX;
+  }
+  
+  #cards .row img {
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+  }
+  #cards .row p {
+    color: rgb(79, 78, 78);
+    font-size: 18px;
+    padding: 14px 34px;
+  }
+
+
+  footer {
+    background-color: #333;
+    text-align: center;
+    padding: 18px 20px;
+    color: white  ;
+    height: 50px;
+  }
+
